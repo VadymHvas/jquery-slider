@@ -53,7 +53,7 @@ $(document).ready(function() {
             offset--;
 
             $($(".nav-btn")[offset]).removeClass("active");
-            $($(".nav-btn")[offset - 1]).addClass("active");
+            $($(".nav-btn")[offset - 2]).addClass("active");
         };
     };
 
